@@ -1,0 +1,40 @@
+/*
+Example Less variables
+*/
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.todo-list {
+  list-style: none;
+}
+.todo-list .todo-list-item input {
+  margin-right: 3px;
+}
+.todo-list .todo-list-item p {
+  padding-left: 20px;
+}
+.less-style {
+  background-color: blue;
+}
+.less-style div {
+  margin: 0 auto;
+}
+.less-style p {
+  width: 100%;
+}
+.less-style .some-other-style {
+  float: right;
+  text-align: center;
+  color: blue;
+}
+.navbar-inverse {
+  background-color: #222;
+  border-color: #3c3c3c;
+}

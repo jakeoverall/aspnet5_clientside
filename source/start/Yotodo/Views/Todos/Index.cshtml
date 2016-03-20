@@ -1,0 +1,25 @@
+@model IEnumerable<Yotodo.Models.Todo>
+
+
+<div class="row">
+    <div class="col-md-4">
+        <h1>Task List</h1>
+    </div>
+    <div class="col-md-8">
+       
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        
+        <ul class="todo-list">
+            @foreach (var t in Model){
+                <li class="todo-list-item">
+                    <input type="checkbox" id="@t.Id" checked="@t.IsCompleted"/> <label for="@t.Id">@t.Title</label>
+                    <p>@t.Description </p>
+                </li>
+            }
+        </ul>
+        <br/>
+    </div>
+</div>
